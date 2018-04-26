@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_call_api"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调用API"/>
+
+        <Button
+            android:id="@+id/btn_install_plugin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安装插件"/>
+
+        <Button
+            android:id="@+id/btn_start_plugin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"/>
+
+        <Button
+            android:id="@+id/btn_call_rom_api"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调用RomAPI"/>
+
+        <Button
+            android:id="@+id/btn_bugly_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bugly测试"/>
+
+        <Button
+            android:id="@+id/btn_check_xpush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检测XPush"/>
+
+        <Button
+            android:id="@+id/btn_throw_exception"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抛出NoExtAPIException"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
